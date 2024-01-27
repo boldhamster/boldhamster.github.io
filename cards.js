@@ -1,8 +1,5 @@
 
 
-// todo show snak peek bar until end of sneak show
-// todo on p1 turn it does 2 flashes instead of 1
-
 
 var errors = 0;
 var matches = 0;
