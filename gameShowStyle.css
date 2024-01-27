@@ -1,0 +1,99 @@
+body {
+  background-color: #0b1842;
+  background-size: cover;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: auto;
+  color: #004bc4;
+}
+
+#board {
+  height: 340px;
+  width: 480px;
+  margin: auto;
+  padding: 0;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #004bc4;
+  border: 3px solid #ba9500;
+  border-radius: 10px;
+}
+
+#buttonStart {
+  background-image: url("./reaction_bar_button1.png");
+  font-family: Helvetica, Arial, sans-serif;
+  border: 0px;
+  background-color: #0b1842;
+  border-radius: 13px;
+  color: #0b1842;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 400px;
+  height: 40px;
+}
+
+#homeInfo {
+  font-family: Helvetica, Arial, sans-serif;
+  border: 0px;
+  background-color: #0b1842;
+  color: #cba328;
+  font-weight: bold;
+  padding: 15px 32px;
+  font-size: 19px;
+  margin: auto;
+  width: 400px;
+  height: 40px;
+}
+
+#buttonMemory {
+  font-family: Helvetica, Arial, sans-serif;
+  border: 0px;
+  background-color: #004bc4;
+  border-radius: 17px;
+  color: #fff0b6;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 400px;
+  height: 60px;
+}
+
+#pointsBox {
+  background-color: #004bc4;
+  width:380px;
+  border: solid 2px #cba328;
+  justify-content: center;
+  margin: auto;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.card {
+  height: 90px;
+  width: 98px;
+  margin: 10px;
+}
+
+#points1 {
+  color: #54d2d5;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+#points2 {
+  color: #b651ff;
+  font-size: 34px;
+  font-weight: bold;
+}
